@@ -4,10 +4,9 @@
   "description": "A modern and responsive portfolio website built with HTML, CSS, JavaScript, and React",
   "main": "index.html",
   "scripts": {
-    "start": "npx http-server -p 3000 -o",
-    "dev": "npx http-server -p 3000 -o -c-1",
-    "build": "echo 'Static site - no build needed'",
-    "deploy": "echo 'Ready for deployment'"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [
     "portfolio",
@@ -27,5 +26,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/yourusername/portfolio.git"
+  },
+  "dependencies": {
+    "vite": "^6.4.1"
   }
 }
