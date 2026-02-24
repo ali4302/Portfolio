@@ -1036,6 +1036,16 @@ section {
     font-size: 1.3rem;
 }
 
+.contact-item a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: var(--primary-green);
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;

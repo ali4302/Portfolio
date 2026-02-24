@@ -75,65 +75,38 @@ window.addEventListener('load', animateSkills);
 // ===== Projects Data =====
 const projects = [
     {
-        id: 1,
+       
         title: "CamTrack Security System",
         description: "Advanced AI-powered security surveillance system with real-time monitoring, motion detection, facial recognition, and automated alert notifications.",
         image: "https://via.placeholder.com/400x200/1e40af/ffffff?text=CamTrack+Security",
         tags: ["Python", "OpenCV", "TensorFlow", "IoT"],
         github: "https://github.com/ali4302",
         live: "#",
-       
+        showIcon: true
     },
     {
-        id: 2,
+       
         title: "E-Commerce Platform",
         description: "Full-stack e-commerce solution with advanced features including payment gateway integration, inventory management, and user analytics.",
         image: "https://via.placeholder.com/400x200/2563eb/ffffff?text=E-Commerce",
         tags: ["React", "Node.js", "MongoDB", "Stripe"],
         github: "https://github.com/ali4302",
         live: "#",
+        showIcon: true
+    },
+    
+   
+    {
         
-    },
-    {
-        id: 3,
-        title: "Task Management System",
-        description: "Enterprise-grade productivity application with team collaboration, project tracking, deadline management, and real-time synchronization.",
-        image: "https://via.placeholder.com/400x200/3b82f6/ffffff?text=Task+Manager",
-        tags: ["React", "Firebase", "Material-UI"],
-        github: "https://github.com/ali4302",
-        live: "#",
-      
-    },
-    {
-        id: 4,
-        title: "Smart Weather Dashboard",
-        description: "Intelligent weather forecasting platform with location-based predictions, interactive maps, climate data visualization, and severe weather alerts.",
-        image: "https://via.placeholder.com/400x200/1e40af/ffffff?text=Weather+Analytics",
-        tags: ["React", "API Integration", "Chart.js", "Geolocation"],
-        github: "https://github.com/ali4302",
-        live: "#",
-        
-    },
-    {
-        id: 5,
         title: "Professional Portfolio",
         description: "Modern, responsive portfolio website with animated transitions, dynamic content loading, and optimized performance for showcasing projects.",
         image: "https://via.placeholder.com/400x200/2563eb/ffffff?text=Portfolio",
         tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
         github: "https://github.com/ali4302",
         live: "https://ali4302.github.io",
-        
+        showIcon: true
     },
-    {
-        id: 6,
-        title: "Content Management Platform",
-        description: "Robust CMS for creating, managing, and publishing digital content with role-based access control and SEO optimization.",
-        image: "https://via.placeholder.com/400x200/3b82f6/ffffff?text=CMS+Platform",
-        tags: ["Node.js", "Express", "MySQL", "REST API"],
-        github: "https://github.com/ali4302",
-        live: "#",
-        
-    }
+    
 ];
 
 // ===== Render Projects =====
